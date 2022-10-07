@@ -1,0 +1,17 @@
+
+.time{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+.countdown{
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

@@ -1,0 +1,8 @@
+this is employee data
+
+me = manager
+john = sales
+joseph = marketing
+han = programer
+tomi = web designer
+jenifer = marketing.

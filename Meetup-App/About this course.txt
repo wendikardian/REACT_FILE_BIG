@@ -1,0 +1,33 @@
+https://www.youtube.com/watch?v=Dorf8i6lCuk DONE
+
+Another important thing to remember :
+1. this is the basic of react javascript, this is so tricky -.- 
+2. The first thing should do is install js in your application environtment using npx create-react-app my-app
+3. Set up the folder, based on every file function 
+4. the first folder accessed in this folder will be index.js, this file will render the whole page of this 
+app, because in this file, react called component called layout, who contain all page in this website, 
+and the layout file wrapped by context called favorites-context.js, so if the system want to acces context
+who contain user favorite, just called it
+5. there's a lot of new folder that i created, and all the folder that i created, i put inside src folder
+    there 3 folder inside src folder :
+    a. Component Folder -> contain all componen on my website, i created folder named 
+        a. layout = for insert file who make the whole layout of my app
+        b. meetups = contain the file where i put my html meetup item in this system
+    
+    b. Pages folder -> Contain my page of my app, where i need a componen on this page, i'm going
+    to call it from component folder, in this folder contain a lot of file.
+        a. Allmeetup.js = this is the page where i put all meetup on this system
+        b. NewMeetup.js = this is the page for user create a new meetup
+        c. Favorites.js = this page contain a favorie meetup list by the user, and system put the 
+        Favorites using an array
+
+    c. Store Folder -> contain a file called favorites-content, in this file there's a hook called createcontext
+    as a default export, so if other page want to use a context in this file, just export it, and the data is
+    already send to that page and import the useContext
+
+6. in this website use a lot of module and hook, this is a little bit reference about that
+    a. useState
+    b. useEffect
+    c. useContext
+    d. props
+    e. React router, and many more ..
